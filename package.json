@@ -4,7 +4,7 @@
   "description": "API básica con Node.js y Express",
   "main": "app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node app.js"
   },
   "dependencies": {
     "express": "^4.17.1",
