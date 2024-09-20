@@ -1,10 +1,9 @@
 {
-  "name": "api-project",
+  "name": "golf-api-test",
   "version": "1.0.0",
-  "description": "API básica con Node.js y Express",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.17.1",
