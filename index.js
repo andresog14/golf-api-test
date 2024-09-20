@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 // Importar las rutas desde la carpeta routes
 const cervezasRoutes = require('./routes/cervezas');
-app.use('/api/cervezas', cervezasRoutes);
+app.use('/api/cervezas', cervezasRoutes);  // Asegúrate de que no haya saltos de línea extra aquí
 
 // Definir la ruta raíz para la API
 app.get('/api', (req, res) => {
