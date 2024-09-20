@@ -11,7 +11,8 @@ router.get('/:id', (req, res) => {
 });
 
 router.post('/', (req, res) => {
-  res.json({ message: 'Añadiendo una cerveza' });
+  const nuevaCerveza = req.body;  // Recoge el cuerpo de la solicitud
+  res.json({ message: 'Cerveza añadida', data: nuevaCerveza });  // Devuelve el mensaje y los datos
 });
 
 router.put('/:id', (req, res) => {
