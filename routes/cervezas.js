@@ -1,4 +1,5 @@
-var router = require('express').Router();
+const express = require('express');
+const router = express.Router();
 
 // Definir las rutas para el recurso cervezas
 router.get('/', (req, res) => {
